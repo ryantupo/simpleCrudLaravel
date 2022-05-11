@@ -15,7 +15,7 @@ class PostController extends Controller
     public function index()
     {
 
-        $data = Post::all();
+        $data = Post::sortable()->paginate(5);
 
         return view('post.index', compact('data'));
 

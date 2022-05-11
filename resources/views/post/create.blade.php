@@ -3,7 +3,7 @@
 
 @section('content')
 
-
+<a class="btn bg-dark text-white mt-5" href="{{ route('post.index') }}">Back</a>
 <form class="mt-5" action="{{ route('post.store') }}" method="post">
     @csrf
         <div class="mb-3">

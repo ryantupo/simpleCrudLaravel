@@ -4,6 +4,7 @@
 
 
 @section('content')
+<a class="btn bg-dark text-white mt-5" href="{{ route('post.index') }}">Back</a>
     <form action="{{ route('post.update', $post->id) }}" method="post">
         @csrf
         @method('put')

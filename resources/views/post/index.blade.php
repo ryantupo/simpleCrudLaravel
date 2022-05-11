@@ -7,9 +7,9 @@
     <table class="table table-dark table-striped mt-5 mx-auto">
         <thead>
             <tr>
-                <th scope="col">id</th>
-                <th scope="col">title</th>
-                <th scope="col">desc</th>
+                <th scope="col">@sortablelink('id')</th>
+                <th scope="col">@sortablelink('title')</th>
+                <th scope="col">@sortablelink('description')</th>
                 <th scope="col"></th>
             </tr>
         </thead>
