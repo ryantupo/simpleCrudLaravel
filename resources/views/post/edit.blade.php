@@ -16,7 +16,7 @@
             <label for="description1" class="form-label">Description</label>
             <input name="description" type="text" class="form-control" id="decription" value="{{ $post->description }}">
         </div>
-        <button type="submit" class="btn btn-primary">Submit</button>
+        <button type="submit" class="btn btn-dark">Submit</button>
 
     </form>
 @endsection
